@@ -197,6 +197,7 @@ enum  {
         ns_t_nsec3 = 50,        /* Next Record v3 */
         ns_t_nsec3param = 51,   /* NSEC Parameters */
         ns_t_tlsa = 52,         /* TLSA */
+        ns_t_openpgpkey = 61,   /* OPENPGPKEY */
         ns_t_eui48 = 108,       /* EUI-48 */
         ns_t_eui64 = 109,       /* EUI-64 */
         ns_t_tsig = 250,        /* Transaction signature. */
